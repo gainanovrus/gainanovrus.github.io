@@ -103,14 +103,15 @@ body, p, h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 .main_title {
   text-align: center;
+  text-transform: uppercase;
   padding: 60px 0px;
 }
 
 .main_title h2 {
-  font-size: 36px;
-  font-family: "Bree Serif", serif;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Raleway", serif;
   color: #222222;
-  text-transform: uppercase;
   text-align: center;
   border: 1px solid #222222;
   display: inline-block;
@@ -1494,4 +1495,19 @@ body, p, h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 /*---------------------------------------------------- */
 
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
+       url('../fonts/Raleway-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/Raleway-Bold.woff2') format('woff2'),
+       url('../fonts/Raleway-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
 /*# sourceMappingURL=style.css.map */

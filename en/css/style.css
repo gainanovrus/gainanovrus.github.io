@@ -103,14 +103,15 @@ body, p, h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 .main_title {
   text-align: center;
+  text-transform: uppercase;
   padding: 60px 0px;
 }
 
 .main_title h2 {
-  font-size: 36px;
-  font-family: "Bree Serif", serif;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Raleway", serif;
   color: #222222;
-  text-transform: uppercase;
   text-align: center;
   border: 1px solid #222222;
   display: inline-block;
