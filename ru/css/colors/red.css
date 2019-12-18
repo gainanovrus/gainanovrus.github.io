@@ -5,7 +5,8 @@
 	color: red;
 }
 .download_btn {
-	background: red;
+	background: gainsboro;
+	border: 2px solid #000;
 }
 .myskill_area .skill_item_inner .single_skill .progress .progress-bar {
 	background: red;
