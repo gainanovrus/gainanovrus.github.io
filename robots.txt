@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+Sitemap: https://gainanov.pro/rus-blog/sitemap.xml
+Sitemap: https://gainanov.pro/eng-blog/sitemap.xml
